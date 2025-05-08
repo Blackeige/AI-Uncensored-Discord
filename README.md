@@ -19,9 +19,9 @@ No OpenAI, no cloud. **Everything runs on your machine.**
 ### 1. Clone the repo
 
 
-git clone https://github.com/your-user/your-repo.git
+>git clone https://github.com/Blackeige/AI-Uncensored-Discord.git
 
->cd your-repo
+>cd AI-Uncensored-Discord
 
 ### 2. Install Python dependencies
 
