@@ -1,0 +1,54 @@
+🎯 PARTIE 1 — CONFIGURATION D’OLLAMA
+Télécharge Ollama ici :
+https://ollama.com/download
+
+Installe Ollama normalement selon ton OS (Windows, Mac, Linux).
+
+Lance Ollama (obligé pour que le bot puisse parler).
+
+Télécharge le modèle llama2-uncensored7b-chat-q3_K_S :
+
+>ollama pull llama2-uncensored7b-chat-q3_K_S
+
+Démarre le modèle :
+
+>ollama run llama2-uncensored7b-chat-q3_K_S
+
+Vérifie que Ollama tourne bien sur localhost:11434.
+
+🤖 PARTIE 2 — CONFIGURATION DU BOT DISCORD
+
+Ouvre un terminal dans le dossier du projet en mettant le chemin du fichier :
+
+>cd C:\Users\chemin\vers\le\fichier
+
+Installe les dépendances avec :
+
+>pip install -r requirements.txt
+
+Ajoute ton token Discord :
+
+Ouvre llama2-bot.py, remplace cette ligne :
+
+>TOKEN = 'TON_TOKEN_DE_BOT'
+
+par le token de bot Discord.
+
+Lance le bot :
+
+>python llama2-bot.py
+Commandes utilisables dans Discord :
+
+!ask <question> → envoie la question au modèle
+
+!status → vérifie si le bot tourne
+
+!help → liste les commandes
+
+✅ Résumé
+Ollama doit être lancé AVANT le bot.
+
+Le modèle llama2-uncensored7b-chat-q3_K_S doit être téléchargé.
+
+Le bot fonctionne localement via http://localhost:11434.
+
